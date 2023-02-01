@@ -1,0 +1,51 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.box {
+    width: 320px;
+    height: 450px;
+    background: #14afb48c;
+    top: 48%;
+    left: 51%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 7%;
+    padding: 70px 30px;
+}
+h1 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+}
+.box input {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+}
+.box input[type="text"] {
+    border-bottom: 1px solid #000;
+    background: transparent;
+    height: 40px;
+    font-size: 16px;
+}
+.box .button {
+    border: none;
+    background: black;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 114px;
+}

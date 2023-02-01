@@ -1,0 +1,118 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(10.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    background-attachment: fixed;
+}
+
+.login-box {
+    width: 320px;
+    height: 420px;
+    background: #ffffff8c;
+    top: 48%;
+    left: 51%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 7%;
+    padding: 70px 30px;
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 114px;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+}
+.login-box label {
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+.login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+}
+.login-box input[type="text"],
+input[type="password"] {
+    border-bottom: 1px solid #000;
+    background: transparent;
+    height: 40px;
+    font-size: 16px;
+}
+#hider::before {
+    position: absolute;
+    content: '\f070';
+    font-family: FontAwesome;
+    top: 218px;
+    right: 36px;
+    font-size: 22px;
+    transform: translateY(-50%);
+}
+#hider.hide::before {
+    content: '\f06e';
+}
+.login-box button {
+    height: 40px;
+    width: 90%;
+    border: none;
+    position: absolute;
+    bottom: 130px;
+    right: 15px;
+    background: black;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: white;
+    color: black;
+}
+.login-box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: grey;
+}
+.login-box a:hover {
+    color: black;
+}
+/* .social-media {
+    display: flex;
+    position: absolute;
+    top: 518px;
+    right: 42%;
+}
+.social-icon {
+    width: 46px;
+    height: 46px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    border-radius: 30px;
+    background: #ffffff8c;
+}
+.social-icon:hover {
+    color: white;
+    background: black;
+} */
